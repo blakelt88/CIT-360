@@ -10,7 +10,7 @@ class airport extends Thread {
     private Thread thread;
     private String boardingCall;
 
-    // Program will start after this comment.
+    // Program will start after this comment. Outcomes of what is happening at the airport different evey time.
 
     airport( String attendantSpeak) {
         boardingCall = attendantSpeak;
@@ -26,6 +26,7 @@ class airport extends Thread {
                 // Let the thread sleep for a while.
                 Thread.sleep(100);
             }
+   // This even only happense on occasion
         }catch (InterruptedException baby) {
             System.out.println("a baby screams and cries.");
         }
