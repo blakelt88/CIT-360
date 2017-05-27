@@ -10,6 +10,7 @@ package disneybeans;
  *
  * @author Blake
  */
+ 
 public class DisneySession {
 
     public String getCharacter() {
