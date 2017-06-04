@@ -47,6 +47,11 @@ public class PUBGModel {
         return secondary_choice;
     }
     
+  /**
+ *
+ * @author Blake
+ */
+    
     // Setting secondary_choice
     
     public void set_secondary_choice(String secondary_choice){
@@ -102,6 +107,11 @@ public class PUBGModel {
     public String get_armor_choice() {
         return armor_choice;
     }
+    
+  /**
+ *
+ * @author Blake
+ */
     
     // Setting armor_choice
     

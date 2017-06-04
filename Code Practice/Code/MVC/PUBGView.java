@@ -34,6 +34,11 @@ public class PUBGView {
         
         // Display utility item
         
+  /**
+ *
+ * @author Blake
+ */
+        
         System.out.println("Utility: " + utility_choice);   
         
         // Display backpack type

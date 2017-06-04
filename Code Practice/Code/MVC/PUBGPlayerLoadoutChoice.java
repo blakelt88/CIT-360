@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package cit360;
 
 /**
@@ -38,6 +34,11 @@ public class PUBGPlayerLoadoutChoice {
         PUBGcontroller.set_helmet_choice("Level 3");
 
         PUBGcontroller.PUBGLoadInformation();
+        
+  /**
+ *
+ * @author Blake
+ */
         
         // Second controller item
         
@@ -81,6 +82,12 @@ public class PUBGPlayerLoadoutChoice {
         PUBGModel.set_armor_choice("Level 3");
         PUBGModel.set_helmet_choice("Level 3");
 
+  /**
+ *
+ * @author Blake
+ */
+        // Returning value of PUBGModel
+  
         return PUBGModel;
     }
 
