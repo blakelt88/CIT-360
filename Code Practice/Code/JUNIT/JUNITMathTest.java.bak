@@ -7,7 +7,7 @@ import static org.junit.Assert.*;
  * @author Blake
  */
 
-// This is a simple math test of JUnit
+// Simple test of JUNIT
 
 public class JUNITMathTest {
     
