@@ -68,28 +68,5 @@ public class PUBGPlayerLoadoutChoice {
 
     }
 
-    private static PUBGModel inputLoadout(){
-        PUBGModel PUBGModel = new PUBGModel();
-        
-        // Item being brought into the controller
-        
-        PUBGModel.set_player_name("Travis K");
-        PUBGModel.set_primary_choice("VSS");
-        PUBGModel.set_secondary_choice("Silenced AKM");
-        PUBGModel.set_tertiary_choice("None for more inventory space");
-        PUBGModel.set_utility_choice("Smoke Grenade");
-        PUBGModel.set_backpack_choice("Level 3");
-        PUBGModel.set_armor_choice("Level 3");
-        PUBGModel.set_helmet_choice("Level 3");
-
-  /**
- *
- * @author Blake
- */
-        // Returning value of PUBGModel
-  
-        return PUBGModel;
-    }
-
 }
 
